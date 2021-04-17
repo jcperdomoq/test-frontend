@@ -1,0 +1,14 @@
+.swal2-close:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.swal2-title {
+  font-family: "CircularBold";
+}
+.swal2-content {
+  color: $secondary !important;
+  font-family: "CircularBook";
+}
+.swal2-container {
+  z-index: 10002 !important;
+}

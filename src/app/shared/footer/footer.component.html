@@ -1,0 +1,43 @@
+<footer class="py-4 position-fixed">
+    <div class="row px-6 align-items-center">
+        <div class="col-4 footer__box-movil">
+            <p class="circular-bold text-black pt-3">
+                Free Shiping
+            </p>
+            <p class="circular-bold text-black pt-3">
+                2 years warranty
+            </p>
+        </div>
+        <div class="col-3 footer__box-web">
+            <p class="circular-bold text-black pt-3">
+                Free Shiping
+            </p>
+            <p class="circular-book text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vel laboriosam sapiente tempora labore sed?
+            </p>
+        </div>
+        <div class="col-3 footer__box-web">
+            <p class="circular-bold text-black pt-3">
+                2 years warranty
+            </p>
+            <p class="circular-book text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vel laboriosam sapiente tempora labore sed?
+            </p>
+        </div>
+        <div class="col-12 col-sm-8 col-md-6 text-right footer__box-buy">
+            <div class="float-right pl-3 pt-4">
+                <button class="btn btn-primary px-5 py-3 circular-book rounded" type="button" (click)="buyProduct()" #btnBuy>Buy now</button>
+            </div>
+            <div class="float-right px-3">
+                <h2 class="circular-bold text-black pt-3">
+                    {{product.total | currency}}
+                </h2>
+                <p class="circular-book text-secondary">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

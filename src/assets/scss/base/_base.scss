@@ -1,0 +1,39 @@
+html,
+body {
+  background-color: white;
+  font-size: 15px;
+}
+.pointer {
+  cursor: pointer;
+}
+input,
+.form-control:focus {
+  background-color: $bg-input !important;
+}
+.px-6 {
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+}
+.text-black {
+  color: black !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .px-6 {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    font-size: 12px;
+  }
+  .px-6 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

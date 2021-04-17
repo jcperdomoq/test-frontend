@@ -1,0 +1,44 @@
+img {
+  object-fit: scale-down;
+}
+.mySlides {
+  display: none;
+  height: 300px;
+}
+.dots {
+  height: 150px;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+.active {
+  border: 2px solid black;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .mySlides {
+    height: 200px;
+  }
+  .dots {
+    height: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .mySlides {
+    height: 200px;
+  }
+  .dots {
+    height: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mySlides {
+    height: 200px;
+  }
+  .dots {
+    height: 50px;
+  }
+}

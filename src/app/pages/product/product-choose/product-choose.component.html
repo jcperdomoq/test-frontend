@@ -1,0 +1,93 @@
+<h4 class="circular-bold choose__box">
+    Choose your finish
+</h4>
+<div class="row w-100 mx-0">
+    <div class="col-12 col-md-6 pr-0 pr-md-3 pl-0 my-2 my-md-0">
+        <div class="pills__box px-3 pointer rounded-lg" (click)="chooseColor(true)" [ngClass]="{'pills__active': flagColor}">
+            <p class="circular-bold text-black pt-3">
+                Ivory White
+            </p>
+            <p class="circular-book text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vel laboriosam sapiente tempora labore sed? Quo voluptatibus in, 
+                error.
+            </p>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 pl-0 pl-md-3 pr-0 my-2 my-md-0">
+        <div class="pills__box px-3 pointer rounded-lg" (click)="chooseColor(false)" [ngClass]="{'pills__active': !flagColor}">
+            <p class="circular-bold text-black pt-3">
+                Matte Black
+            </p>
+            <p class="circular-book text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vel laboriosam sapiente tempora labore sed? Quo voluptatibus in, 
+                error.
+            </p>
+        </div>
+    </div>
+</div>
+<br><br>
+<h4 class="circular-bold">
+    Would you like to add extended warranty coverage?
+</h4>
+<div class="row w-100 mx-0">
+    <div class="col-12 px-0 my-2">
+        <div class="pills__box px-3 pointer rounded-lg" (click)="chooseCoverage(false)" [ngClass]="{'pills__active': !flagCoverage}">
+            <p class="circular-bold text-black pt-3">
+                2 years coverage
+            </p>
+            <p class="circular-book text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+    </div>
+    <div class="col-12 px-0 my-2">
+        <div class="pills__box px-3 pointer rounded-lg" (click)="chooseCoverage(true)" [ngClass]="{'pills__active': flagCoverage}">
+            <div class="row align-items-center">
+                <div class="col-10">
+                    <p class="circular-bold text-black pt-3">
+                        3 years coverage
+                    </p>
+                    <p class="circular-book text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class="col-2 text-right">
+                    <p class="circular-medium m-0">
+                        + ${{valueCoverage}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<h4 class="circular-bold">
+    Features
+</h4>
+<div class="row w-100 mx-0">
+    <div class="col-12 px-0 my-2">
+        <div class="pills__box px-3 pointer rounded-lg" (click)="chooseFeatures(false)" [ngClass]="{'pills__active': !flagFeatures}">
+            <p class="circular-bold text-black pt-3">
+                Voice assistant support
+            </p>
+        </div>
+    </div>
+    <div class="col-12 px-0 my-2">
+        <div class="pills__box px-3 pointer rounded-lg" (click)="chooseFeatures(true)" [ngClass]="{'pills__active': flagFeatures}">
+            <div class="row align-items-center">
+                <div class="col-10">
+                    <p class="circular-bold text-black pt-3">
+                        Customizable controls
+                    </p>
+                </div>
+                <div class="col-2 text-right">
+                    <p class="circular-medium m-0">
+                        + ${{valueFeaturese}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

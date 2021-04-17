@@ -1,0 +1,70 @@
+@font-face {
+  font-family: $circularBold;
+  src: url("../../fonts/CircularBold.ttf") format("opentype");
+}
+
+.circular-bold {
+  font-family: $circularBold !important;
+}
+
+@font-face {
+  font-family: $circularMedium;
+  src: url("../../fonts/CircularMedium.ttf") format("opentype");
+}
+
+.circular-medium {
+  font-family: $circularMedium !important;
+}
+
+@font-face {
+  font-family: $circularBook;
+  src: url("../../fonts/CircularBook.ttf") format("opentype");
+}
+
+.circular-book {
+  font-family: $circularBook !important;
+}
+
+.font-sz-04 {
+  font-size: ($size - 0.6) !important;
+}
+
+.font-sz-06 {
+  font-size: ($size - 0.4) !important;
+}
+
+.font-sz-08 {
+  font-size: ($size - 0.2) !important;
+}
+
+.font-sz-1 {
+  font-size: $size !important;
+}
+
+.font-sz-12 {
+  font-size: ($size + 0.2) !important;
+}
+
+.font-sz-14 {
+  font-size: ($size + 0.4) !important;
+}
+
+.font-sz-16 {
+  font-size: ($size + 0.6) !important;
+}
+
+.font-sz-18 {
+  font-size: ($size + 0.8) !important;
+}
+
+.font-sz-2 {
+  font-size: ($size + 1) !important;
+}
+
+.font-sz-3 {
+  font-size: ($size + 2) !important;
+}
+
+.font-sz-4 {
+  font-size: ($size + 3) !important;
+}

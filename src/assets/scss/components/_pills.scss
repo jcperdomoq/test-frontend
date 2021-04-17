@@ -1,0 +1,14 @@
+$pillsTag: "pills__";
+
+.#{$pillsTag}box {
+  border: 2px solid lighten($color: #dee2e6, $amount: 5);
+  transition: all 0.3s ease;
+  &:hover {
+    border: 2px solid darken($color: #dee2e6, $amount: 10);
+    transition: all 0.3s ease;
+  }
+}
+.#{$pillsTag}active {
+  border: 2px solid $blue !important;
+  transition: all 0.3s ease;
+}

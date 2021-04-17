@@ -1,0 +1,51 @@
+$gray: rgb(245, 245, 247);
+
+footer {
+  background-color: $gray;
+  border-top: 1px solid darken($color: $gray, $amount: 10);
+  bottom: 0;
+  width: 100%;
+  z-index: 10001;
+}
+
+@media (min-width: 769px) {
+  .footer__box-web {
+    display: block;
+  }
+  .footer__box-movil {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__box-web {
+    display: none;
+  }
+  .footer__box-movil {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer__box-web {
+    display: none;
+  }
+  .footer__box-movil {
+    display: none;
+  }
+}
+
+@media (max-width: 490px) {
+  footer {
+    padding: 5px 0px !important;
+  }
+  .footer__box-buy {
+    div {
+      padding-top: 0px !important;
+      button {
+        padding: 5px 10px !important;
+        margin-top: 25px;
+      }
+    }
+  }
+}

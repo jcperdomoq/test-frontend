@@ -1,0 +1,12 @@
+.height-50 {
+  height: 50px;
+}
+.sticky-top {
+  top: 30px;
+}
+
+@media (max-width: 992px) {
+  .sticky-top {
+    position: relative !important;
+  }
+}

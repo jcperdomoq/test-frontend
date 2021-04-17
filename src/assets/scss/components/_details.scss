@@ -1,0 +1,22 @@
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: $secondary;
+  font-family: "CircularMedium";
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 20px;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: black;
+  font-family: "CircularBold";
+  text-align: left;
+  background-color: #fff;
+  border-bottom: 2px solid black;
+}

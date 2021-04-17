@@ -1,0 +1,14 @@
+$blue: #1e96d4;
+
+$theme-colors: (
+  "primary": $blue,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "./assets/scss/base/settings";
+@import "./assets/scss/base/base";
+@import "./assets/scss/base/fonts";
+
+@import "./assets/scss/components/details";
+@import "./assets/scss/components/pills";
